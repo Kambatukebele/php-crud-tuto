@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Main */
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Section */
+.section{
+    width: 900px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section .section__h1{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section__table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+thead{
+    background-color: #aeadf7;
+}
+.section__table tr th{
+    width: 180px;
+    padding: 5px 0px;
+    text-transform: uppercase;
+}
+.section__table tr td{
+    width: 180px;
+    padding: 5px 0px;
+    text-align: center;
+    padding: 10px 0px;            
+}
+.section__table tr td .button{
+    width: 80px;
+    padding: 9px 0;
+    border-radius: 5px;
+    border: none;
+    display: block;
+}
+.section__table tr td .edit{
+    background-color: blue;
+    
+}
+.section__table tr td .delete{
+    background-color: red;
+    
+}
+.section__table tr td .button a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    display: block;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn-add{
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    margin: 20px 0px;
+} 
+.btn-add button{
+    background-color: blue;
+    width: 80px;
+    padding: 9px 0;
+    border-radius: 5px;
+    border: none;
+    display: block;
+}
+.btn-add button a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    display: block;
+}
